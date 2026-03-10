@@ -13,7 +13,7 @@ export default function () {
           </div>
         {/* Row 1 */}
         <div className="grid col-span-2 row-span-3 md:row-span-2 md:col-span-3 text-center justify-items-center items-start pt-10 py-0 px-6 md:pt-0">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-44 md:gap-x-16 md:gap-y-12 place-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-40 md:gap-x-16 md:gap-y-12 place-items-center">
         {/* Image Wrapper */}
         <div className="relative w-45 md:w-62.5">
         {/* Image */}
