@@ -17,7 +17,7 @@ export default function RoseHeroTemp({
                     />
 
                     <img
-                        src="/assets/rosetem_hero_mobile.png"
+                        src="/assets/rosetem_hero_mobile.jpg"
                         alt="Wedding Hero"
                         className="w-full h-auto"
                     />
@@ -39,7 +39,7 @@ export default function RoseHeroTemp({
                 </div>
 
                 <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-center items-center gap-12 pb-16 px-12">
-                    <h2 className="md:text-2xl text-xl text-[#FFEABA] font-Jacques-plain">ॐ श्री गणेशाय नम</h2>
+                    <h2 className="md:text-2xl text-xl text-[#FFEABA] font-Jacques-plain border-amber-50">ॐ श्री गणेशाय नम</h2>
                     <img src="/assets/ganesh.png" alt="Ganesh" className="md:h-40 md:w-35 w-25 h-30" />
                     <h2 className="md:text-3xl text-xl text-[#FFEABA] text-center font-Jacques-plain leading-12">With the heavenly blessings of <br></br>Smt. Lata Devi & Sm. Kamal Kapoor <br></br> and <br></br> Mrs. Reena & Mr. Rajiv Kapoor</h2>
                     <h2 className="md:text-8xl text-4xl text-[#FFEABA] font-Jacques-plain text-center tracking-wider">WE <br></br>INVITE</h2>
