@@ -38,7 +38,7 @@ export default function RoseHeroTemp({
                     <img src="/assets/rose_hero_texticon_lower.png" alt="rose_hero_texticon" className="md:w-80 md:mb-4 w-20 mb-2" />
                 </div>
 
-                <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-center items-center gap-12 pb-16 px-12">
+                <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-center items-center md:gap-12 gap-4 pb-16 md:px-12 px-10">
                     <h2 className="md:text-2xl text-xl text-[#FFEABA] font-Jacques-plain border-amber-50">ॐ श्री गणेशाय नम</h2>
                     <img src="/assets/ganesh.png" alt="Ganesh" className="md:h-40 md:w-35 w-25 h-30" />
                     <h2 className="md:text-3xl text-xl text-[#FFEABA] text-center font-Jacques-plain leading-12">With the heavenly blessings of <br></br>Smt. Lata Devi & Sm. Kamal Kapoor <br></br> and <br></br> Mrs. Reena & Mr. Rajiv Kapoor</h2>
