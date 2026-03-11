@@ -6,11 +6,11 @@ import Countdown from "./components/Countdown";
 
 export default function Home() {
   return (
-   <div>
+    <div className="min-h-screen bg-[#f2e5d9] overflow-hidden">
     <RoseHeroTemp/>
     <EventList/>
     <MeetBride/>
     <Countdown/>
-   </div>
+    </div>
   );
 }
