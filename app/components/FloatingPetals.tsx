@@ -36,6 +36,7 @@ export default function FloatingPetal({
         animationDelay: `${petalValues.delay}s`,
         "--scale": petalValues.scale,
         "--rotate": `${petalValues.rotate}deg`,
+        // "--fall-distance": "240vh",   // 👈 height control
         ...style
       } as React.CSSProperties}
     />
