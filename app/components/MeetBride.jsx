@@ -3,8 +3,8 @@ export default function () {
         <>
        
         {/* WEDDING TEMPLATE THREE */}
-        <section className=" w-full min-h-336 bg-[url('/assets/meetbride_bg.png')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-[3355px]">
-        <div className="grid grid-cols-1 grid-rows-[230px_200px_570px_120px_150px] gap-2 p-4 md:grid-cols-2 md:grid-rows-[1300px_1200px_200px_200px] md:gap-y-24 md:p-4">
+        <section className=" w-full min-h-360 bg-[url('/assets/meetbride_bg.png')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-[3355px]">
+        <div className="grid grid-cols-1 grid-rows-[230px_200px_570px_120px_150px]  p-4 md:grid-cols-2 md:grid-rows-[1300px_1200px_200px_200px] md:gap-y-24 md:p-4">
         <div className="grid place-items-center items-end md:items-center md:col-span-1">
   
           {/* Stack container */}
@@ -12,24 +12,24 @@ export default function () {
 
           {/* Center Image */}
           <img src="/assets/bride_img.png" alt="couple" width={120} height={120}
-          className="rounded-full object-cover border-t-8 border-white z-10 md:w-75 md:h-75 "/>
+          className="rounded-full object-cover border-t-8 border-white z-10 md:w-90 md:h-90 "/>
 
           {/* Left Image */}
           <img src="assets/meet_leftimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 -translate-x-[140%]
-           -translate-y-0 md:-translate-x-[135%] md:-translate-y-0 md:w-35 md:h-65 "/>
+           -translate-y-0 md:-translate-x-[135%] md:-translate-y-0 md:w-45 md:h-75 "/>
 
           {/* Right Image */}
           <img src="assets/meet_rightimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 translate-x-[40%]
-           -translate-y-0 md:translate-x-[35%] md:-translate-y-0 md:w-35 md:h-65 "/>
+           -translate-y-0 md:translate-x-[35%] md:-translate-y-0 md:w-45 md:h-75 "/>
 
         </div>
         </div>
             {/* Right (text) */}
-            <div className="grid justify-items-center items-start text-center md:text-left md:items-center md:place-items-start">  
+            <div className="grid justify-items-center items-start text-center md:text-left md:items-center md:place-items-start md:pr-26">  
             <div className="flex flex-col mb-0 md:mb-0">  
-            <h2 className="text-[#BD8C1C] text-base md:text-2xl  tracking-widest leading-tight md:leading-loose font-Jacques"> MEET THE </h2>
+            <h2 className="text-[#BD8C1C] text-base md:text-2xl  tracking-widest leading-tight md:leading-loose font-Jacques mt-4"> MEET THE </h2>
             <h2 className="text-[#BD8C1C] text-2xl md:text-4xl  leading-none md:leading-tight md:tracking-wide font-Jacques"> BRIDE AND <br /> GROOM </h2>
-            <p className="text-[#BD8C1C] text-xs md:text-base 2xl:text-2xl leading-snug px-3.5 md:px-0 2xl:px-0 font-Jacques">
+            <p className="text-[#BD8C1C] text-xs md:text-base 2xl:text-2xl leading-snug px-3.5 md:px-0 2xl:px-0 font-Jacques pt-4">
               We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days 
               of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us 
              both deeply. We would like to take this opportunity to thank everyone most sincerely for their kindness.We are
@@ -56,26 +56,26 @@ export default function () {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-1 place-items-center text-center gap-8 text-[#1A2860] md:col-span-2">
-                <div className="flex flex-row gap-6"> 
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4"> 
               <div className="">
-                <img src="assets/instagram.png" alt="instagram" width={20} height={30} className="md:w-[60px] md:h-[60px] mx-auto" />
+                <img src="assets/instagram.png" alt="instagram" width={20} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
                 <h4 className="text-xs md:text-lg font-Jacques">HASHTAG</h4>
-                <p className="text-[8px] md:text-2xl text-3xl font-Jacques">While posting photos on social media please use the hashtag - #abkan</p>
+                <p className="text-[12px] md:text-2xl font-Jacques">While posting photos on social media please use the hashtag - #abkan</p>
               </div>
               <div className="">
-                <img src="assets/temperature.png" alt="weather" width={21.4} height={30} className="md:w-[60px] md:h-[60px] mx-auto" />
+                <img src="assets/temperature.png" alt="weather" width={21.4} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
                 <h4 className="text-xs md:text-lg font-Jacques">WEATHER</h4>
-                <p className="text-[8px] md:text-2xl text-3xl font-Jacques">It will be mostly sunny with temperature reaching up to 28 degrees at the venue</p>
+                <p className="text-[12px] md:text-2xl font-Jacques">It will be mostly sunny with temperature reaching up to 28 degrees at the venue</p>
               </div>
               <div className="">
-                <img src="assets/person.png" alt="staff" width={16.3} height={30} className="md:w-[60px] md:h-[60px] mx-auto" />
+                <img src="assets/person.png" alt="staff" width={16.3} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
                 <h4 className="text-xs md:text-lg font-Jacques">STAFF</h4>
-                <p className="text-[8px] md:text-2xl text-3xl font-Jacques">We recommend the nearby hotel called Bhola Bhawan near the venue for the staff members</p>
+                <p className="text-[12px] md:text-2xl font-Jacques">We recommend the nearby hotel called Bhola Bhawan near the venue for the staff members</p>
               </div>
               <div className="">
-                <img src="assets/car.png" alt="parking" width={29.4} height={30} className="md:w-[60px] md:h-[60px] mx-auto" />
+                <img src="assets/car.png" alt="parking" width={29.4} height={30} className="md:w-[80px] md:h-[60px] w-10 h-8 mx-auto" />
                 <h4 className="text-xs md:text-lg font-Jacques">PARKING</h4>
-                <p className="text-[8px] md:text-2xl text-3xl font-Jacques">Valet parking for all our guests will be available at the venue</p>
+                <p className="text-[12px] md:text-2xl font-Jacques">Valet parking for all our guests will be available at the venue</p>
               </div>
               </div>
             </div>
