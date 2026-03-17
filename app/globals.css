@@ -88,7 +88,7 @@ body {
   opacity:0;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
 @keyframes petalFall{
 
   0%{
@@ -124,7 +124,7 @@ body {
 
 
 
-@media (min-width: 1024px){
+
 @keyframes petalFall{
 
   0%{
@@ -137,25 +137,24 @@ body {
   }
 
   20%{
-    transform: translateY(40vh) translateX(-15px) scale(var(--scale)) rotate(calc(var(--rotate) + 40deg));
+    transform: translateY(50vh) translateX(-15px) scale(var(--scale)) rotate(calc(var(--rotate) + 40deg));
   }
 
   40%{
-    transform: translateY(80vh) translateX(20px) scale(var(--scale)) rotate(calc(var(--rotate) + 100deg));
+    transform: translateY(100vh) translateX(20px) scale(var(--scale)) rotate(calc(var(--rotate) + 100deg));
   }
 
   60%{
-    transform: translateY(120vh) translateX(-10px) scale(var(--scale)) rotate(calc(var(--rotate) + 160deg));
+    transform: translateY(150vh) translateX(-10px) scale(var(--scale)) rotate(calc(var(--rotate) + 160deg));
   }
 
   80%{
-    transform: translateY(160vh) translateX(15px) scale(var(--scale)) rotate(calc(var(--rotate) + 220deg));
+    transform: translateY(200vh) translateX(15px) scale(var(--scale)) rotate(calc(var(--rotate) + 220deg));
   }
 
   100%{
-    transform: translateY(200vh) translateX(-5px) scale(var(--scale)) rotate(calc(var(--rotate) + 280deg));
+    transform: translateY(260vh) translateX(-5px) scale(var(--scale)) rotate(calc(var(--rotate) + 280deg));
     opacity:0;
   }
 }
 
-}
