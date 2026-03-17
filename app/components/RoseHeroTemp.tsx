@@ -7,51 +7,29 @@ export default function RoseHeroTemp({
     return (
         <>
             <section className="relative w-full">
-                <FloatingPetal className=" lg:hidden absolute left-[5%] top-0 w-14 h-14 opacity-80" />
-                <FloatingPetal className="lg:hidden absolute left-[10%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[15%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[20%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[25%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[30%] top-0 w-14 h-14 opacity-90" />
-                <FloatingPetal className="lg:hidden absolute left-[35%] top-0 w-14 h-14 opacity-90" />
-                <FloatingPetal className="lg:hidden absolute left-[40%] top-0 w-14 h-14 opacity-90" />
-                <FloatingPetal className="lg:hidden absolute left-[45%] top-0 w-14 h-14 opacity-80" />
-                <FloatingPetal className="lg:hidden absolute left-[40%] top-0 w-14 h-14 opacity-80" />
-                <FloatingPetal className="lg:hidden absolute left-[50%] top-0 w-14 h-14 opacity-80" />
-                <FloatingPetal className="lg:hidden absolute left-[55%] top-0 w-14 h-14 opacity-80" />
-                <FloatingPetal className="lg:hidden absolute left-[60%] top-0 w-14 h-14 opacity-85" />
-                <FloatingPetal className="lg:hidden absolute left-[65%] top-0 w-14 h-14 opacity-85" />
-                <FloatingPetal className="lg:hidden absolute left-[70%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[75%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[80%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[85%] top-0 w-14 h-14 opacity-70" />
-                <FloatingPetal className="lg:hidden absolute left-[90%] top-0 w-14 h-14 opacity-85" />
-                <FloatingPetal className="lg:hidden absolute left-[95%] top-0 w-14 h-14 opacity-85" />
+                
 
 
-
-
-
-                <FloatingPetal className="hidden lg:block absolute left-[5%] top-0 w-16 h-16 opacity-80" />
-                <FloatingPetal className="hidden lg:block absolute left-[10%] top-0 w-17 h-17 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[15%] top-0 w-18 h-18 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[20%] top-0 w-17 h-17 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[25%] top-0 w-18 h-18 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[30%] top-0 w-17 h-17 opacity-90" />
-                <FloatingPetal className="hidden lg:block absolute left-[35%] top-0 w-17 h-17 opacity-90" />
-                <FloatingPetal className="hidden lg:block absolute left-[40%] top-0 w-18 h-18 opacity-90" />
-                <FloatingPetal className="hidden lg:block absolute left-[45%] top-0 w-18 h-18 opacity-80" />
-                <FloatingPetal className="hidden lg:block absolute left-[40%] top-0 w-17 h-17 opacity-80" />
-                <FloatingPetal className="hidden lg:block absolute left-[50%] top-0 w-18 h-18 opacity-80" />
-                <FloatingPetal className="hidden lg:block absolute left-[55%] top-0 w-16 h-16 opacity-80" />
-                <FloatingPetal className="hidden lg:block absolute left-[60%] top-0 w-17 h-17 opacity-85" />
-                <FloatingPetal className="hidden lg:block absolute left-[65%] top-0 w-17 h-17 opacity-85" />
-                <FloatingPetal className="hidden lg:block absolute left-[70%] top-0 w-18 h-18 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[75%] top-0 w-17 h-17 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[80%] top-0 w-18 h-18 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[85%] top-0 w-16 h-16 opacity-70" />
-                <FloatingPetal className="hidden lg:block absolute left-[90%] top-0 w-17 h-17 opacity-85" />
-                <FloatingPetal className="hidden lg:block absolute left-[95%] top-0 w-18 h-18 opacity-85" />
+                <FloatingPetal className=" absolute left-[5%] top-0 w-16 h-16 opacity-80" />
+                <FloatingPetal className="absolute left-[10%] top-0 w-17 h-17 opacity-70" />
+                <FloatingPetal className="absolute left-[15%] top-0 w-18 h-18 opacity-70" />
+                <FloatingPetal className="absolute left-[20%] top-0 w-17 h-17 opacity-70" />
+                <FloatingPetal className="absolute left-[25%] top-0 w-18 h-18 opacity-70" />
+                <FloatingPetal className="absolute left-[30%] top-0 w-17 h-17 opacity-90" />
+                <FloatingPetal className="absolute left-[35%] top-0 w-17 h-17 opacity-90" />
+                <FloatingPetal className="absolute left-[40%] top-0 w-18 h-18 opacity-90" />
+                <FloatingPetal className="absolute left-[45%] top-0 w-18 h-18 opacity-80" />
+                <FloatingPetal className="absolute left-[40%] top-0 w-17 h-17 opacity-80" />
+                <FloatingPetal className="absolute left-[50%] top-0 w-18 h-18 opacity-80" />
+                <FloatingPetal className="absolute left-[55%] top-0 w-16 h-16 opacity-80" />
+                <FloatingPetal className="absolute left-[60%] top-0 w-17 h-17 opacity-85" />
+                <FloatingPetal className="absolute left-[65%] top-0 w-17 h-17 opacity-85" />
+                <FloatingPetal className="absolute left-[70%] top-0 w-18 h-18 opacity-70" />
+                <FloatingPetal className="absolute left-[75%] top-0 w-17 h-17 opacity-70" />
+                <FloatingPetal className="absolute left-[80%] top-0 w-18 h-18 opacity-70" />
+                <FloatingPetal className="absolute left-[85%] top-0 w-16 h-16 opacity-70" />
+                <FloatingPetal className="absolute left-[90%] top-0 w-17 h-17 opacity-85" />
+                <FloatingPetal className="absolute left-[95%] top-0 w-18 h-18 opacity-85" />
 
                 <FloatingPetal className="hidden lg:block absolute right-[5%] top-0 w-16 h-16 opacity-80" />
                 <FloatingPetal className="hidden lg:block absolute right-[10%] top-0 w-17 h-17 opacity-70" />
