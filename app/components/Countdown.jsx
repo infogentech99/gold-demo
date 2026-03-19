@@ -35,9 +35,9 @@ export default function () {
     }, []);
     return (
         <>
-          <section className="w-full min-h-300 bg-[#EDEDED] bg-[url('/assets/countdown_bg.png')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-675">
+          <section className="w-full min-h-300 bg-[#EDEDED] md:bg-[url('/assets/countdown_bg.png')] bg-[url('/assets/countdown_bg_mobile.png')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-675">
           <div className="grid grid-cols-1 md:grid-cols-1 gap-2 md:gap-6 text-[#280F56] place-items-center">
-            <h2 className="text-2xl md:text-5xl text-center pt-10 md:pt-60 font-Jacques"> THE COUNTDOWN BEGINS  </h2>
+            <h2 className="text-2xl md:text-5xl text-center pt-40 md:pt-60 font-Jacques"> THE COUNTDOWN BEGINS  </h2>
              <h2 className="lg:text-[40px] text-2xl text-center text-[#280F56] font-Jacques"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
             
             <p className="lg:text-[22px] text-[20px] text-[#280F56] text-center lg:px-100 md:px-25 px-10 font-Jacques">

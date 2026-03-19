@@ -6,13 +6,13 @@ export default function () {
           <div className="grid col-span-2 md:col-span-3 text-center place-items-center">
           <div className="flex flex-row">
           {/* Heading */}
-          <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#BD8C1C] font-Jacques mt-20">
+          <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#BD8C1C] font-Jacques md:mt-20">
             On the following events
           </h2>
           </div>
           </div>
-        <div className="grid col-span-2 row-span-3 md:row-span-2 md:col-span-3 text-center justify-items-center items-start pt-10 py-0 px-6 md:pt-0">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-14 gap-y-12 md:gap-x-16 md:gap-y-12 place-items-center mt-28">
+        <div className="grid col-span-2 row-span-3 md:row-span-2 md:col-span-3 text-center justify-items-center items-start  py-0 px-6 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-14 gap-y-8 md:gap-x-16 md:gap-y-12 place-items-center md:mt-28 mt-10">
         {/* Image Wrapper */}
         <div className="relative md:w-75">
         {/* Image */}

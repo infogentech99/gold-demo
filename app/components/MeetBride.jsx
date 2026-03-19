@@ -8,26 +8,26 @@ export default function () {
         <div className="grid place-items-center items-end md:items-center md:col-span-1">
   
           {/* Stack container */}
-          <div className="relative grid place-items-center">
+          <div className="relative grid place-items-center md:mt-0 mt-12">
 
           {/* Center Image */}
           <img src="/assets/bride_img.png" alt="couple" width={120} height={120}
-          className="rounded-full object-cover border-t-8 border-white z-10 md:w-90 md:h-90 "/>
+          className="rounded-full object-cover border-t-8 border-white z-10 md:w-90 md:h-90 w-60 h-65"/>
 
           {/* Left Image */}
-          <img src="assets/meet_leftimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 -translate-x-[140%]
-           -translate-y-0 md:-translate-x-[135%] md:-translate-y-0 md:w-45 md:h-75 "/>
+          <img src="assets/meet_leftimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 -translate-x-[160%]
+           -translate-y-0 md:-translate-x-[135%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
 
           {/* Right Image */}
-          <img src="assets/meet_rightimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 translate-x-[40%]
-           -translate-y-0 md:translate-x-[35%] md:-translate-y-0 md:w-45 md:h-75 "/>
+          <img src="assets/meet_rightimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 translate-x-[50%]
+           -translate-y-0 md:translate-x-[35%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
 
         </div>
         </div>
             {/* Right (text) */}
             <div className="grid justify-items-center items-start text-center md:text-left md:items-center md:place-items-start md:pr-26">  
             <div className="flex flex-col mb-0 md:mb-0">  
-            <h2 className="text-[#BD8C1C] text-base md:text-2xl  tracking-widest leading-tight md:leading-loose font-Jacques mt-4"> MEET THE </h2>
+            <h2 className="text-[#BD8C1C] text-base md:text-2xl  tracking-widest leading-tight md:leading-loose font-Jacques md:mt-4 mt-32"> MEET THE </h2>
             <h2 className="text-[#BD8C1C] text-2xl md:text-4xl  leading-none md:leading-tight md:tracking-wide font-Jacques"> BRIDE AND <br /> GROOM </h2>
             <p className="text-[#BD8C1C] text-xs md:text-base 2xl:text-2xl leading-snug px-3.5 md:px-0 2xl:px-0 font-Jacques pt-4">
               We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days 
