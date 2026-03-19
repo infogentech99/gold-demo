@@ -59,22 +59,22 @@ export default function () {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4"> 
               <div className="">
                 <img src="assets/instagram.png" alt="instagram" width={20} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
-                <h4 className="text-xs md:text-lg font-Jacques">HASHTAG</h4>
-                <p className="text-[12px] md:text-2xl font-Jacques">While posting photos on social media please use the hashtag - #abkan</p>
+                <h4 className="text-xs md:text-3xl font-Jacques font-medium">HASHTAG</h4>
+                <p className="text-[12px] md:text-2xl font-Jacques">While posting photos on <br></br> social media please use <br></br> the hashtag - #abkan</p>
               </div>
               <div className="">
                 <img src="assets/temperature.png" alt="weather" width={21.4} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
-                <h4 className="text-xs md:text-lg font-Jacques">WEATHER</h4>
-                <p className="text-[12px] md:text-2xl font-Jacques">It will be mostly sunny with temperature reaching up to 28 degrees at the venue</p>
+                <h4 className="text-xs md:text-3xl font-Jacques font-medium">WEATHER</h4>
+                <p className="text-[12px] md:text-2xl font-Jacques">It will be mostly sunny with <br></br> temperature reaching up to 28 degrees at the venue</p>
               </div>
               <div className="">
                 <img src="assets/person.png" alt="staff" width={16.3} height={30} className="md:w-[60px] md:h-[60px] w-8 h-8 mx-auto" />
-                <h4 className="text-xs md:text-lg font-Jacques">STAFF</h4>
+                <h4 className="text-xs md:text-3xl font-Jacques font-medium">STAFF</h4>
                 <p className="text-[12px] md:text-2xl font-Jacques">We recommend the nearby hotel called Bhola Bhawan near the venue for the staff members</p>
               </div>
               <div className="">
                 <img src="assets/car.png" alt="parking" width={29.4} height={30} className="md:w-[80px] md:h-[60px] w-10 h-8 mx-auto" />
-                <h4 className="text-xs md:text-lg font-Jacques">PARKING</h4>
+                <h4 className="text-xs md:text-3xl font-Jacques font-medium">PARKING</h4>
                 <p className="text-[12px] md:text-2xl font-Jacques">Valet parking for all our guests will be available at the venue</p>
               </div>
               </div>
