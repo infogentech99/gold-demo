@@ -12,15 +12,15 @@ export default function () {
 
           {/* Center Image */}
           <img src="/assets/bride_img.png" alt="couple" width={120} height={120}
-          className="rounded-full object-cover border-t-8 border-white z-10 md:w-90 md:h-90 w-60 h-65"/>
+          className="rounded-full object-cover border-t-8 border-white z-10 md:w-100 md:h-100 w-60 h-65"/>
 
           {/* Left Image */}
           <img src="assets/meet_leftimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 -translate-x-[160%]
-           -translate-y-0 md:-translate-x-[135%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
+           -translate-y-0 md:-translate-x-[160%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
 
           {/* Right Image */}
           <img src="assets/meet_rightimg.png" alt="flowers" width={60} height={120} className="absolute left-1/2 z-20 translate-x-[50%]
-           -translate-y-0 md:translate-x-[35%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
+           -translate-y-0 md:translate-x-[55%] md:-translate-y-0 md:w-45 md:h-75 w-30 h-50"/>
 
         </div>
         </div>
@@ -28,7 +28,7 @@ export default function () {
             <div className="grid justify-items-center items-start text-center md:text-left md:items-center md:place-items-start md:pr-26">  
             <div className="flex flex-col mb-0 md:mb-0">  
             <h2 className="text-[#BD8C1C] text-base md:text-2xl  tracking-widest leading-tight md:leading-loose font-Jacques md:mt-4 mt-32"> MEET THE </h2>
-            <h2 className="text-[#BD8C1C] text-2xl md:text-4xl  leading-none md:leading-tight md:tracking-wide font-Jacques"> BRIDE AND <br /> GROOM </h2>
+            <h2 className="text-[#BD8C1C] text-2xl md:text-6xl  leading-none md:leading-tight md:tracking-wide font-Jacques"> BRIDE AND <br /> GROOM </h2>
             <p className="text-[#BD8C1C] text-xs md:text-base 2xl:text-2xl leading-snug px-3.5 md:px-0 2xl:px-0 font-Jacques pt-4">
               We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days 
               of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us 
