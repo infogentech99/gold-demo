@@ -3,7 +3,7 @@ export default function () {
         <>
        
         {/* WEDDING TEMPLATE THREE */}
-        <section className=" w-full min-h-360 bg-[url('/assets/meetbride_bg.png')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-[3355px]">
+        <section className=" w-full min-h-360 bg-[url('/assets/meetbridebg_water.webp')] bg-cover bg-center bg-no-repeat md:bg-cover md:min-h-[3355px]">
         <div className="grid grid-cols-1 grid-rows-[230px_200px_570px_120px_150px]  p-4 md:grid-cols-2 md:grid-rows-[1300px_1200px_200px_200px] md:gap-y-24 md:p-4">
         <div className="grid place-items-center items-end md:items-center md:col-span-1">
   

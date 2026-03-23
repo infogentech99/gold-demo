@@ -82,11 +82,11 @@ export default function RoseHeroTemp({
                     {/* Desktop Image */}
                     <source
                         media="(min-width: 768px)"
-                        srcSet="/assets/rosetem_hero.webp"
+                        srcSet="/assets/rosehero_water.webp"
                     />
 
                     <img
-                        src="/assets/rosetem_hero_mobile2.jpg"
+                        src="/assets/rosehero_mobilewater.jpg"
                         alt="Wedding Hero"
                         className="w-full h-auto"
                     />

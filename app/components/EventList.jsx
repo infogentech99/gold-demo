@@ -1,7 +1,7 @@
 export default function () {
     return(
         <>
-         <section className=" relative w-full min-h-1100 bg-[url('/assets/bg_eventlist5.jpg')] md:bg-[url('/assets/deskbg_eventlist_t.png')] bg-cover bg-center md:bg-center bg-no-repeat md:bg-cover md:min-h-[4000px] bg-[#EDE4D9] py-10 md:py-0 overflow-hidden">
+         <section className=" relative w-full min-h-1100 bg-[url('/assets/bg_eventlistmobile_water.webp')] md:bg-[url('/assets/deskbg_eventlist_water.webp')] bg-cover bg-center md:bg-center bg-no-repeat md:bg-cover md:min-h-[4000px] bg-[#EDE4D9] py-10 md:py-0 overflow-hidden">
         <div className="grid grid-cols-2 grid-rows-[100px_480px_480px_480px_800px] gap-y-0 p-2 py-0 md:grid-cols-3 md:grid-rows-[160px_850px_850px_1500px] md:gap-y-2 md:p-4">
           <div className="grid col-span-2 md:col-span-3 text-center place-items-center">
           <div className="flex flex-row">
